@@ -1,6 +1,10 @@
+import { useState } from "react";
 import useFetch from "./useFetch"
 
 const Contact=()=>{
+    const [ name , setName ] = useState('')
+    // const [ review , setReview ] = useState('')
+
     const {data:contacts,isPending, error} = useFetch('http://localhost:7999/contact');
     return(
         <div className="reviewSection">
@@ -16,7 +20,12 @@ const Contact=()=>{
                 ))
             )
             }
+            <p>{name}</p>
+            <div className="reviewMessage">
+                <p onChange={(e)=>setName(e.target.value)}>Write a review:</p>
+                <textarea type="text" required></textarea>
+            </div>
         </div>
     )
 }
-export default Contact
+export default Contact;
