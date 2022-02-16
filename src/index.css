@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar > h1{
+  margin-left: 1rem;
+  font-size: 1.8rem;
+  color: crimson;
+}
+.navbar  a{
+  text-decoration: none;
+  padding: 2rem;
+  color: black;
+  color: crimson;
+}
+
+.blog-list{
+  margin: 6rem;
+}
+
+.blog-list > h1{
+  color: crimson;
+}
+
+.main > input{
+  margin: 20rem 0rem 0rem 30rem;
+}
+
+.main > button{
+  margin: 5rem 0rem 0rem 30rem;
+}
+.main > p{
+  margin: 1rem 0rem 0rem 30rem;
+}
+
+.home{
+  margin: 5rem 0rem 0rem 10rem;
+}
+
+.list-blog{
+  padding: 0.7rem
+}
+
+.lazyload{
+  margin: 8rem 0rem 0rem 10rem;
+}
+
+.errorMessage{
+  margin: 8rem 0rem 0rem 10rem;
+}
+.reviewSection{
+  margin-top: 5rem;
+}
+.reviewHeading{
+  margin-left: 15rem;
+  color:crimson;
+}
+.myContact{
+  margin: 1rem 5rem 1rem 15rem;
+}
+.blogLink{
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
+}
+
+.BlogView:hover{
+  box-shadow: 14px 12px 5px -2px rgba(0,0,0,0.09);
+  width: 50rem;
+  padding: 0.4rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.blogDetails{
+  margin: 5rem auto;
+  width: 50rem;
+  line-height: 2rem;
+}
+
+.blogDetails > button{
+  background-color: crimson;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-weight: 800;
+}
+.create{
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+.create > h2{
+  margin: 0 auto;
+  color: crimson
+}
+
+.formList > label{
+  /* color: crimson; */
+  font-weight: 800;
+}
+.formList{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.formList > label,input{
+  padding: 1rem;
+}
+
+.formList > input{
+  height: 0.8rem;
+}
+
+.formList > button{
+  width: 7rem;
+  padding: 0.4rem;
+  margin:1rem auto;
+}
+
+.formList > button{
+  background-color: crimson;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-weight: 800;
+}
+
+.orderedList{
+  padding: 0.6rem
+}
+
+.notFound{
+  margin: 15rem 32rem
+}
+
+.notFound h3{
+  color: black;
+  text-decoration: none;
+}

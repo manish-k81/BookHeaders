@@ -1,0 +1,22 @@
+{
+    "todo":[
+        {
+            "userId": 1,
+            "id": 1,
+            "title": "delectus aut autem this is the spell which is used for hogs",
+            "completed": false
+        },
+        {
+            "userId": 1,
+            "id": 1,
+            "title": "My name is Robert nice to meet you Aubrey",
+            "completed": false
+        },
+        {
+            "userId": 1,
+            "id": 1,
+            "title": "Avada Kedavra aut autem voldemort's favourite spell",
+            "completed": false
+        }
+    ]
+}

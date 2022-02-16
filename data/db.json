@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "Dune",
+      "body": "Based on the title, the book has so many things to discuss but it actually has less than 400 pages that even include the glossary of terms. The reader might have a second thought about the book since it might not promise to discuss the things written in the chapter.\r\rBut if you go through the chapters, you will be surprised how each topic could be discussed thoroughly in this book. Using the traditional structures in most web and application development books, it slowly introduces each concept before they are brought together in the final chapters. \r\rPHP and Oracle are discussed separately at first with sample codes and situations to ensure that the reader understands each concept. It then goes to discuss who they could be efficiently integrated. The final chapter which is about Ajax is very impressive as it gives the developers a chance to develop an Ajax based application using popular practices in web development",
+      "author": "Oley",
+      "id": "3"
+    },
+    {
+      "title": "13 Reasons Why?",
+      "body": "Based on the title, the book has so many things to discuss but it actually has less than 400 pages that even include the glossary of terms. The reader might have a second thought about the book since it might not promise to discuss the things written in the chapter.\r\rBut if you go through the chapters, you will be surprised how each topic could be discussed thoroughly in this book. Using the traditional structures in most web and application development books, it slowly introduces each concept before they are brought together in the final chapters. \r\rPHP and Oracle are discussed separately at first with sample codes and situations to ensure that the reader understands each concept. It then goes to discuss who they could be efficiently integrated. The final chapter which is about Ajax is very impressive as it gives the developers a chance to develop an Ajax based application using popular practices in web development",
+      "author": "Robin sharma",
+      "id": "4"
+    },
+    {
+      "title": "Psychology of Money",
+      "body": "Hey this book will tell you everthing about mkoney just hit sumbit and ppost it bitches",
+      "author": "saket",
+      "id": "aEVQ0xz"
+    }
+  ]
+}
