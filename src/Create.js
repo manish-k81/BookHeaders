@@ -25,6 +25,7 @@ const Create = () =>{
         
         <div className="create">
             <h2>Add a new Blog here</h2>
+
             <form className="formList" onSubmit={handleSubmit}>
                 <label>Blog Title:</label>
                 <input type='text'required value={title}  onChange={(e)=>setTitle(e.target.value)}/>
@@ -37,6 +38,7 @@ const Create = () =>{
 
                 <button>Add Blog</button>
             </form>
+            
         </div>
     )
 }
